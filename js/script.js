@@ -5,7 +5,8 @@
   $('#nav-search-btn').css('display', 'none');
   $('#footer').css('display', 'none');
   $('.outer').css({'display':'flex','justify-content': 'center'});
-  
+  $('#main').css('flex-grow','1');
+
   // Search
   var $searchWrap = $('#search-form-wrap'),
     isSearchAnim = false,
